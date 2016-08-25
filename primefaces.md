@@ -168,3 +168,44 @@ Hibernate validation
 BeanValidation y Jsf es automatica 
 BeanValidation y Jpa tambien es automatica
 
+jsf es el framwrok mvc de java es otra api
+cambiar trrjet para cambair la versin en la que trabaja maven
+
+ver como configurar persistence.xml
+como configurar pom.xml con maven
+
+jpa util es una buen practica
+	ver codigo javaee7 en github para ver si se peudo correr con hibernate
+ver hola mundo con hibernate
+Creacino de app con netbeans
+	deploy para grabae
+Dinamic web proeyct
+	tiene un problema de que se encutnra vinculado 
+	por lo cual se usa maven para que se peuda usar en cualquier computadora
+	y sin depender del IDe
+Proyecto ocn maven es mucho mejor para le manejo de dependencias
+war proyecto pra un web
+	src/main/java
+		codigo java
+	src/main/resource
+		codigo que no es java
+maven 
+	pom.xml
+		se puede especificar el encondign UTF-8
+	web dinamic 3.0
+		es desde donde es opcional el web.xml
+maven 
+	se puede trabajr con cualquierea de los ides
+
+Servlet es aquel q  se encarga de recibir las peticiones
+
+maven igual permite añadir jars
+	<dependency>
+		<groupId>javax.servlet</groupId>
+	</dependency>
+scope
+	servlet
+		es proveido por el servidor de aplicacones
+		se lo marca como provider cuando esto se da el servido rde aplicaciones
+ctrl+shift+o
+	para realziar una importacion rapida
