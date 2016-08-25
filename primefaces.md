@@ -99,3 +99,49 @@ Tomcat
 Maven
 	Es un gestor de proyectos
 	se declaran las dependencias en un pom.xml
+maven update proyect para poder actualiar el poryecto
+-----------
+1.- rebizar como configurar el pon.xml
+Hibernate Implementacion
+	se realizan las consultas sobre los objetos
+	jpa es la interface e hibernate la implementan
+MVC
+	JPA es mas para le modelo
+	Vista que ve es usuairo
+	Controlador recibe comco el usuarioi interactua con la vista
+Servlets
+	son la base pra los get y post
+Primero 
+	todo era servlets
+Sgundo 
+	se invito jsp (pagians html con codigo java)
+Jstl
+	Java astarndar tag library: para poder hacer menos codigo dentro de la pagina
+C
+	controlador
+		sepuede usar patrones DAO(Para parte de persisitencia)
+MVC Frameworks
+ 
+Porque usar jsf?
+	implementa mvc
+Persistence.xml
+	se indica cual es nombre de una unidad de persistencia
+	<persistence-unit name="default">
+	</persistence-unit>
+jdni
+	es como poner un sigla a una conexion en un serdiro de aplicacones
+automatizar la creacion y actualizacion de tablas
+	create-drop: las tabals con creads por el mismo Hibernate y luego eliminadas al final de la ejecucion del programa
+	update: nada es eliminado , solo se actualiza o crea algo nuevo , se mantiene todos los datos. Util para aplicaciones que estan en produccion y que nada puede ser descartado
+	validate:
+jpql 
+	es una seleccion al bojeto no a las tablas
+jpql
+	puede utilizar funciones
+		abs
+		sqrt
+		current_timestamp
+		avg
+		max
+		min
+		count
