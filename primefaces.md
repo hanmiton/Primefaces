@@ -209,3 +209,36 @@ scope
 		se lo marca como provider cuando esto se da el servido rde aplicaciones
 ctrl+shift+o
 	para realziar una importacion rapida
+para que valga con tomcat
+	primero confiturar si esta con java 1.7
+en web content es donde se crea los jsp
+se pueden añadir librerias que tiene el servidor
+	
+Debug es cuando se desea que para en un puntto para debuggerar
+	debug es el que me permtie ver las variables y ver si hahay algun eerro ren el codigo
+Uso de jax-rs
+
+MOjarra
+	implementacin mas conocida de jsf
+Controladores
+	BeanManejados
+		administrados por java server face
+no se tiene q declarra en ningun lado la vista con el co ntrolador q por convencion la vista usa los bean
+	clases
+		Empienzan con mayuscula siguen camelCase
+	vistas
+		empiezan con miniscula siguen camelcase
+
+@ManagedBean
+	Es es que se encarga de unir la vista con el controlador (bean)
+h html
+ui para usar repeats
+	ui:repeat var = "nombre" value= "{}"
+@RequestScoped
+	se vuelve hacer el request cada vez y se ponen por defecto
+@ViewScoped
+	solo mantiene mientras se esta en la vista lo que se va añadiendo pero cuando se va otra se pierde ocmpletamente
+@SessionScoped
+	que no pierda la sesion y q mantega guardado los datos
+	tiene un timepo limitado
+	
