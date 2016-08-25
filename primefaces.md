@@ -145,3 +145,26 @@ jpql
 		max
 		min
 		count
+--- consultas ocn jpql
+jsf y Jpa
+lenguaje jpql
+	
+	@NamedQuery(nam="Automovel.listarTodos",
+		query="select a form Atumovil a")
+Lazy, n+1
+
+tenemos en la vista
+	exception
+		LazyInitializationException
+orm
+	no nos libera de la performance
+lazy a igger si es posible
+igger a lazy no es posible
+
+Ver q es patorn DAO
+	Bean validation y JPA
+Hibernate validation
+	auto
+BeanValidation y Jsf es automatica 
+BeanValidation y Jpa tambien es automatica
+
