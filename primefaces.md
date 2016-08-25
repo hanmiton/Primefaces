@@ -73,3 +73,29 @@ Postgress
 	Comparacion con las distintas vaces de datoc mo mysql sqlserver y mas y por q se escojio dicha base de datos pra el desarrollo
 Primefaces
 	Framework jsf porq se escojio y en qeu ayuda a als vsitas y diferenccia entre otros framework como icefaces y ams
+Notas segundo tutoriales primefaces
+
+Orm
+	object relation mapping
+	Mapeador de realciones de objetos
+Impedancia
+	divorciadado totalmente de la programacion orintada a bojetos
+JDBC
+	Obligados atrapar la excepcion que se puede dar
+		Base de datos no disponible
+Disminuyendo la impedanci a traves dle mapeo
+	@Entity
+	para declarra un entidad
+	JPA
+		Java persistence API
+Hibernate
+	alineo con el standar
+Jpa
+	es una api estandar como jdbc
+SErvidor aplicaciones
+	ya vienen las librerais de hibernate
+Tomcat 
+	solo tiene las librerias para correr
+Maven
+	Es un gestor de proyectos
+	se declaran las dependencias en un pom.xml
